@@ -1,0 +1,44 @@
+{
+  "base": "stations",
+  "clouds": {
+    "all": 100
+  },
+  "cod": 200,
+  "coord": {
+    "lat": 48.7484,
+    "lon": 30.2218
+  },
+  "dt": 1676899747,
+  "id": 690688,
+  "main": {
+    "feels_like": -1.79,
+    "grnd_level": 987,
+    "humidity": 61,
+    "pressure": 1013,
+    "sea_level": 1013,
+    "temp": 3.52,
+    "temp_max": 3.52,
+    "temp_min": 3.52
+  },
+  "name": "Uman'",
+  "sys": {
+    "country": "UA",
+    "sunrise": 1676869159,
+    "sunset": 1676906808
+  },
+  "timezone": 7200,
+  "visibility": 10000,
+  "weather": [
+    {
+      "description": "overcast clouds",
+      "icon": "04d",
+      "id": 804,
+      "main": "Clouds"
+    }
+  ],
+  "wind": {
+    "deg": 282,
+    "gust": 12.33,
+    "speed": 8.11
+  }
+}

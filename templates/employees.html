@@ -1,0 +1,13 @@
+{% extends 'base_my.html' %}
+
+{% block sub_content %}
+<table border="1">
+    {% for i in users %}
+    <tr>
+        <td>{{ i['name'] }}</td>
+        <td>{{ i['age'] }}</td>
+        <td>{{ i['password'] }}</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock sub_content %}

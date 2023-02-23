@@ -1,0 +1,27 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}
+Zhevla
+{% endblock title %}
+
+{% block head %}
+<link rel="shortcut icon" href="{{ url_for('static', filename='icon/Canada.ico') }}" type="image/x-icon">
+{% endblock head %}
+
+{% block navbar %}
+{% include 'navbar.html' %}
+{% endblock navbar %}
+
+{% block content %}
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul>
+        {% for message in messages %}
+        <li class="alert alert-{{ category }}">{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+{% block sub_content%}
+{% endblock %}
+{% endblock content %}
